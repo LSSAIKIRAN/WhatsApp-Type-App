@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "470289380332",
+    "project_id": "celfiechat-f939c",
+    "storage_bucket": "celfiechat-f939c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470289380332:android:58db6c5f3f0ef1e3b886c9",
+        "android_client_info": {
+          "package_name": "com.kiran.celfiechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470289380332-tbuobmev2mlt7bdtvbfk4s162475rikh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX0Lr7y0SQs5k-5MnDK-r8c7OCCM2SVio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "470289380332-tbuobmev2mlt7bdtvbfk4s162475rikh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

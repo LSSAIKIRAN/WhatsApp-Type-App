@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/everyone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:gravity="right"
+        android:padding="@dimen/_8mdp"
+        android:text="Delete for Everyone"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13font_mdp" />
+
+    <TextView
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:gravity="right"
+        android:padding="@dimen/_8mdp"
+        android:text="Delete for Me"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13font_mdp" />
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:gravity="right"
+        android:padding="@dimen/_8mdp"
+        android:text="Cancel"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13font_mdp" />
+
+
+
+</LinearLayout>

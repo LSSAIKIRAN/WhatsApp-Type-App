@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/_8mdp"
+    android:paddingLeft="@dimen/_8mdp"
+    android:paddingRight="@dimen/_8mdp"
+    android:background="?selectableItemBackground"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile"
+        android:layout_width="@dimen/_45mdp"
+        android:layout_height="@dimen/_45mdp"
+        android:src="@drawable/placeholder"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_6mdp"
+        android:text="Sample Name"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13font_mdp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_5mdp"
+        app:layout_constraintStart_toEndOf="@+id/profile"
+        app:layout_constraintTop_toTopOf="@+id/profile"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/lastMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap to chat"
+        android:textSize="@dimen/_10mdp"
+        app:layout_constraintStart_toStartOf="@+id/username"
+        app:layout_constraintTop_toBottomOf="@+id/username"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/msgTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_6mdp"
+        android:layout_marginEnd="@dimen/_6mdp"
+        android:text=""
+        android:textSize="@dimen/_10mdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    <View-->
+<!--        android:id="@+id/view4"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="@dimen/_1mdp"-->
+<!--        android:layout_marginTop="@dimen/_8mdp"-->
+<!--        android:background="#E4E4E4"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/profile" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
